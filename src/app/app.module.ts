@@ -7,17 +7,19 @@ import { AppComponent } from './app.component';
 import { HeroeComponent } from './heroes/heroe/heroe.component';
 import { ListComponent } from './heroes/list/list.component';
 import { CounterModule } from './counter/counter.module';
+import { DbzModule } from './dbz/dbz.module';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeroeComponent,
-    ListComponent
+    ListComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    CounterModule
+    CounterModule,
+    DbzModule
   ],
   providers: [],
   bootstrap: [AppComponent]
